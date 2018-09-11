@@ -5,7 +5,7 @@ tabPanel("slider 2",
                   sidebarPanel(
                     width = 10,
                     textInput(inputId = "text",
-                              label ="tetx input",
+                              label ="text input",
                               width = "100%")
                   )
          ),

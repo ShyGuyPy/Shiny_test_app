@@ -1,5 +1,9 @@
 tabPanel("HTML",
-         tags$div(class = "header",
-                  tags$p("Some text")
+         withTags(
+         div(class = "header",
+                  p("Some text"),
+                  p("some more text")
+         )
 )
+
 )

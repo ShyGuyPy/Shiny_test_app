@@ -1,1 +1,2 @@
-tabPanel("Drex_toy")
+tabPanel("Drex_toy",
+         box(shinydashboard::valueBoxOutput(outputId= "box")))

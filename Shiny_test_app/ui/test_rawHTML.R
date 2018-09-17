@@ -1,4 +1,7 @@
 tabPanel("quad",
+         fluidRow(
+           column(
+             width = 6,
          withTags(
            html(
             body(
@@ -6,30 +9,62 @@ tabPanel("quad",
                div(class="content",
                    div(class="table",
                        div(class="table-cell",
-                           p("some text")
+                           p("precipitation deficit")
                        )))),
            div(class="square",
                div(class="content",
                    div(class="table",
                        div(class="table-cell",
-                           p("some text 2")
+                           p("ground water wells")
                        )))),
            div(class="square",
                div(class="content",
                    div(class="table",
                        div(class="table-cell",
-                           p("some text 3")
+                           p("reservoir flow")
                        )))),
            div(class="square",
                div(class="content",
                    div(class="table",
                        div(class="table-cell",
-                           p("some text 4")
+                           p("streamflow")
                        ))))
          
          
          ))
-         ))
+         )),
+         
+           column(
+             width = 6,
+             div(class="square",
+                 div(class="content",
+                     div(class="table",
+                         div(class="table-cell",
+                             p("precipitation deficit")
+                         )))),
+             div(class="square",
+                 div(class="content",
+                     div(class="table",
+                         div(class="table-cell",
+                             p("ground water wells")
+                         )))),
+             div(class="square",
+                 div(class="content",
+                     div(class="table",
+                         div(class="table-cell",
+                             p("reservoir flow")
+                         )))),
+             div(class="square",
+                 div(class="content",
+                     div(class="table",
+                         div(class="table-cell",
+                             p("streamflow")
+                         ))))
+             
+             
+           ))
+)
+
 
 
 
